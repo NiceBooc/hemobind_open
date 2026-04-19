@@ -15,9 +15,9 @@ dependencies:
   - matplotlib
   - seaborn
   - pandas
-  - pyqtdarktheme
-  - pyqtgraph
   - pip
   - pip:
+      - pyqtdarktheme
+      - pyqtgraph
       - openmmforcefields
       - git+https://github.com/openforcefield/openff-toolkit.git

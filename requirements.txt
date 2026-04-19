@@ -1,0 +1,12 @@
+PySide6
+pyqtdarktheme
+pyyaml
+python-dotenv
+pandas
+MDAnalysis
+prolif
+rdkit
+matplotlib
+seaborn
+# Note: OpenMM stack is best installed via conda/mamba
+# conda install -c conda-forge openmm pdbfixer openff-toolkit openmmforcefields mdanalysis prolif rdkit

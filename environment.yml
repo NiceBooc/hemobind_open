@@ -1,0 +1,23 @@
+name: hemobind
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - openmm=8.1.1
+  - pdbfixer
+  - rdkit
+  - mdanalysis
+  - prolif
+  - pyside6
+  - pyyaml
+  - python-dotenv
+  - matplotlib
+  - seaborn
+  - pandas
+  - pyqtdarktheme
+  - pyqtgraph
+  - pip
+  - pip:
+      - openmmforcefields
+      - git+https://github.com/openforcefield/openff-toolkit.git

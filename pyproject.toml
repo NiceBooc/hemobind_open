@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hemobind"
+version = "0.1.0"
+description = "Automated pipeline for high-affinity ligand discovery and MD-validated binding analysis."
+authors = [
+    { name = "AntiGravity", email = "antigravity@example.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "meeko>=0.7.1",
+    "rdkit>=2023.3.1",
+]
+
+[project.scripts]
+hemobind = "hemobind.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hemobind*"]

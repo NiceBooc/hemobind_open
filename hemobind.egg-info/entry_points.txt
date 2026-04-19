@@ -1,0 +1,2 @@
+[console_scripts]
+hemobind = hemobind.cli:main

@@ -1,0 +1,85 @@
+/* Modern styling for HemoBind GUI */
+
+QMainWindow {
+    background-color: #1e1e2e;
+}
+
+QDockWidget {
+    border: 1px solid #313244;
+    titlebar-close-icon: url(:/icons/close.svg);
+}
+
+QDockWidget::title {
+    background: #313244;
+    padding: 6px;
+    font-weight: bold;
+}
+
+QStackedWidget {
+    background: #181825;
+    border: 1px solid #313244;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+QLabel {
+    color: #cdd6f4;
+}
+
+QLineEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+    background: #313244;
+    border: 1px solid #45475a;
+    border-radius: 4px;
+    padding: 4px;
+    color: #cdd6f4;
+}
+
+QLineEdit:focus {
+    border: 1px solid #89b4fa;
+}
+
+QPushButton {
+    background: #45475a;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: #cdd6f4;
+}
+
+QPushButton:hover {
+    background: #585b70;
+}
+
+QPushButton:pressed {
+    background: #313244;
+}
+
+QProgressBar {
+    background: #313244;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #89b4fa, stop:1 #b4befe);
+    border-radius: 10px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #181825;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #45475a;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
